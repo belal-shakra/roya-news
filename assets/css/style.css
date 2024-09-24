@@ -13,7 +13,7 @@ body {
   background-color: #F0F0F0;
 }
 
-.btn {
+.btn-new {
   width: 40px;
   padding: 8px;
 }
@@ -61,4 +61,16 @@ body {
 .main-width {
   width: 80%;
   margin: auto;
+}
+
+.main-img {
+  background-image: url(https://backend.royanews.tv/imageserv/Size728Q70//images/news/20240924/66f2c75e718541727186782.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 390px;
+}
+
+.main-img a {
+  font-size: 26px;
+  text-decoration: none;
 }
