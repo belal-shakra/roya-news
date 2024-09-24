@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+:root{
+  --main-color: #1C2B4F;
+}
+/* ------- General ------- */
+* {
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-color: #F0F0F0;
+}
+
+.btn {
+  width: 40px;
+  padding: 8px;
+}
+.btn:hover{
+  background-color: #f0f0f000;
+  color: black;
+}
+.btn-red {
+  background-color: red;
+  color: #fff;
+}
+.btn-red:hover {
+  border: 1px solid red;
+}
+.btn-dark-blue {
+  background-color: #1b1b52;
+  color: #fff;
+}
+.btn-dark-blue:hover {
+  border: 1px solid #1b1b52;
+}
+
+
+
+
+.tab-links {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.tab-links .tab-link{
+  padding: 10px 30px;
+}
+
+.tab-links .tab-link:hover{
+  border-bottom: 2px solid var(--main-color);
+  cursor: pointer;
+}
+
+.tab-links .tab-link .active{
+  border-bottom: 2px solid var(--main-color);
+}
+
+.main-width {
+  width: 80%;
+  margin: auto;
+}
