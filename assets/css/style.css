@@ -47,6 +47,7 @@ a {
   color: var(--main-color);
   font-weight: 700;
   font-size: 18px;
+  overflow-x: scroll;
 }
 
 .tab-links .tab-link{
